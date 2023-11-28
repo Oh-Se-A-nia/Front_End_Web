@@ -1,0 +1,37 @@
+.mapBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.buttonBox{
+    display:flex;
+    padding:10px;
+    gap:10px;
+}
+.filter-select-text{
+
+    color:rgba(53, 97, 172, 1);
+    margin-top:42px;
+    font-family: 'Jua', sans-serif;
+}
+.filter-button{  
+    height: 35px;
+    text-align: center;
+    width: 90px;
+    margin-top: 36px; 
+    border-radius: 20px;
+    font-family: 'Jua', sans-serif;
+    background-color:white;
+    color:rgba(53, 97, 172, 1);
+    border: 1px solid rgba(53, 97, 172, 1);
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

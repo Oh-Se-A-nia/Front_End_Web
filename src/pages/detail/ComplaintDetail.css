@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@500&family=Jua&display=swap');
+ 
+.garbage_image {
+    width: 30wv;
+    height: 50vh;
+    margin-top:30px;   
+    text-align: left; 
+}
+
+.single-map{
+  margin-top:30px;
+  margin-left:150px;
+  
+flex:1;
+}
+.complaint_detail_table_top{ 
+  background-color: white;
+  font-family: 'Jua', sans-serif;  
+}
+
+.complaint-detail-center-box{ 
+  background-color: white;
+  display:flex;
+  
+}
+
+.complaint_detail_box{ 
+  margin-left:30px;
+  margin-right:30px;
+  background-color: #ffffff; 
+  font-family: 'Jua', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  margin-top: 20px;
+}
+.complaint_detail_table_top { 
+    border-collapse: collapse; 
+  width: 100%;
+  }
+.complaint_detail_table_top td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: center;
+  height: 30px; 
+  }
+
+  .complaint_detail_table_under { 
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .modify-button{
+    height: 35px;
+    text-align: center;
+    width: 90px; 
+    border-radius: 20px;
+    font-family: 'Jua', sans-serif;
+    background-color:white;
+    color:rgba(53, 97, 172, 1);
+    border: 1px solid rgba(53, 97, 172, 1);
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .complaint_detail_table_under td { 
+    padding: 8px;
+    border: 1px solid #ddd; 
+    text-align: center;
+    height: 30px;
+
+  }
+  
+  .complaint_detail_table_under td:first-child {
+    font-weight: bold; /* 첫 번째 열 텍스트 굵게 표시 */
+  }
+
+  .complaint-detail-center-box{ 
+    width:100%;
+  }
+
+  .garbage_image{
+     width:auto;
+     height:auto;
+    margin-left:200px;
+  }

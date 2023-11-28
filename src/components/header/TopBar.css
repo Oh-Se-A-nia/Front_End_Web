@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@500&family=Jua&display=swap');
+ 
+
+.web{
+    background-color: rgb(249,246, 239);
+}
+
+.logout-button{
+    background-color: rgba(53, 97, 172,10);  
+    color: white;
+    border: none;
+    border-radius:15px;
+    padding: 10px  ;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+
+.topbar { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 130px;   
+  }
+  
+ 
+  .logoImage {
+    margin-top:10px;
+    text-align: center;
+    display: block;
+    min-width: 350px;
+    max-width: 350px;  
+  }
+
+.navbar{  
+    margin-top:20px;
+    margin-left: 30px;
+    margin-right: 30px;   
+    border-radius: 30dvb;
+    margin-bottom:10px;
+    background-color: white; 
+}
+
+.complaint_list_button{
+    margin-left:40px;
+    background-color: rgba(0, 0, 0,0);
+    border:none;
+    color:black;
+    font-size: 17px;
+    width: 150px;  
+    height: 50px;
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.map_button{
+    background-color: rgba(0, 0, 0,0);
+    border:none;
+    color:black;
+    font-size: 17px;
+    width: 150px;  
+    height: 50px;
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.statistics_button{
+    background-color: rgba(0, 0, 0,0);
+    border:none;
+    color:black;
+    font-size: 17px;
+    width: 150px;  
+    height: 50px;
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cleaning_button{
+    background-color: rgba(0, 0, 0,0);
+    border:none;
+    color:black;
+    font-size: 17px;
+    width: 150px;  
+    height: 50px;
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.statistics_button:hover,
+.complaint_list_button:hover,
+.map_button:hover,
+.cleaning_button:hover {
+    text-decoration: underline;
+} 

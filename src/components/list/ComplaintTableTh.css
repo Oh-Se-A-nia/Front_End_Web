@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=IBM+Plex+Sans+KR:wght@500&family=Jua&display=swap');
+ 
+
+.location-button,
+.process-button,
+.type-button
+{ 
+    margin: 0;
+    background-color: white;
+    font-size:18px;
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    color:rgba(53, 97, 172, 1);
+    border:1px solid rgba(53, 97, 172, 1);
+}
+ .complaint-table{
+    color:rgba(53, 97, 172, 1);
+ }
+  
+  .search-button{
+    width: 100px;
+    margin-top: 20px; 
+    margin-left:1100px;
+    border-radius: 20px;
+    font-family: 'Jua', sans-serif;
+    background-color:white;
+    color:rgba(53, 97, 172, 1);
+    border: 1px solid rgba(53, 97, 172, 1);
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .init-button {
+    margin-right:10px;
+    width: 100px;
+    margin-top: 20px; 
+    border-radius: 20px;
+    font-family: 'Jua', sans-serif;
+    background-color:white;
+    color:rgba(53, 97, 172, 1);
+    border: 1px solid rgba(53, 97, 172, 1);
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }

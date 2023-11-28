@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+
+.complaint-list-box{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.complaint-bar{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.complaint-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left:20px;
+    margin-right:20px; 
+}
+
+.complaint-table { 
+  font-family: 'Jua', sans-serif;
+    margin-top: 20px;
+    margin-bottom:20px;
+    border-collapse: collapse; /* 표의 경계를 병합하여 선을 만듭니다. */
+    width: 100%; /* 표 전체 너비 설정 */
+  }
+  .complaint-table th{
+    text-align:center;
+    padding:8px;
+  }
+  .complaint-table td {
+    color:black;
+    border: none; /* 각 셀에 선 추가 */
+    padding: 13px; /* 내부 간격 설정 */
+    text-align:center; /* 가운데 정렬 */
+    border: 1px solid #ddd; 
+  }
+  
+  .complaint-table th { 
+  }
+  
+  .complaint-bar {
+    font-weight: bold; /* 표 헤더 글꼴 굵기 설정 */
+  }
+  
+  .complaint-bar, .complaint-table th, .complaint-table td {
+    height: 30px; /* 행 높이 설정 */
+  }
+
+  .move{
+    background-color: rgba(53, 97, 172,10);  
+    color: white;
+    border: none;
+    border-radius:15px;
+    padding: 10px  ;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+  }
+
+
+  .location-button {
+    position: relative;
+  }
+  
+  .location-drop-button {
+    background-color: aqua;
+    position: absolute;
+    padding: 20px;
+    top: 50%;  
+    left: 24%;
+    width: 130px;
+  }
+
+  .type-button{ 
+    position:relative;
+  }
+
+  .type-drop-button{ 
+    background-color: aqua;
+    position:absolute;
+    padding:20px; 
+    top:36%;
+    left:39%;
+    width:200px; 
+  }
+
+  .process-button{ 
+    position:relative;
+  }
+
+  .process-drop-button{ 
+    background-color: aqua;
+    position:absolute;
+    padding:20px; 
+    top:36%;
+    left:59%;
+    width:200px; 
+  }
+
+ 

@@ -1,0 +1,43 @@
+.LoginPage { 
+    margin-top:-100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.LoginBox {
+    border-radius:30px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginBox > * { 
+    margin: 40px;
+}
+ 
+
+.logoImage_login{
+    margin-top:10px;
+    text-align: center;
+    display: block;
+    min-width: 350px;
+    max-width: 350px;  
+}
+
+.bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    margin-top:30px;
+}
+
+.logoImage_login{
+
+}

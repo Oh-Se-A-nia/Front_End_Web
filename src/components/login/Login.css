@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap');
+
+.login1-button {
+  margin-top:20px;
+  background-color: rgba(53, 97, 172,10);  
+  color: white;
+  border: none;
+  border-radius:15px;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  font-family: 'Jua', sans-serif;
+  }
+ 
